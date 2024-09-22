@@ -362,7 +362,6 @@ body {
   }
   .mobile {
     display: block;
-    transform: scale(1.05);
   }
   .mobile header {
     width: 90vw;
