@@ -459,18 +459,16 @@ body {
     display: none;
   }
 
-  // body {
-  //   background-image: url(../img/bg.webp);
-  //   background-size: cover;
-  //   background-attachment: fixed;
-  //   background-position: top;
-  //   background-repeat: no-repeat;
-  // }
+  body {
+    background-image: url(../img/mobile-bg.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+  }
 
   .mobile {
     display: block;
-
-    transform: scale(1.1);
 
     header {
       width: 90vw;
@@ -725,7 +723,7 @@ body {
       }
 
       .banner-sucess {
-        margin-top: 3.755vw;
+        margin-top: 1.88vw;
 
         img {
           width: 81.35vw;
@@ -788,7 +786,7 @@ body {
 
         text-align: center;
 
-        margin-top: 3.755vw;
+        margin-top: 1.88vw;
 
         p {
           width: 72.59vw;
@@ -834,7 +832,7 @@ body {
       }
 
       .infos {
-        margin-top: 3.755vw;
+        margin-top: 1.88vw;
 
         p {
           font-size: 2.253vw;
@@ -845,7 +843,6 @@ body {
           width: 72.59vw;
           margin: 0 auto;
           text-align: center;
-          margin-top: 10px;
         }
       }
 
@@ -859,7 +856,7 @@ body {
         height: 16.9vw;
 
         margin: 0 auto;
-        margin-top: 2.503vw;
+        margin-top: 1.88vw;
 
         display: flex;
         align-items: center;

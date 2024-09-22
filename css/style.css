@@ -353,9 +353,15 @@ body {
   .desktop {
     display: none;
   }
+  body {
+    background-image: url(../img/mobile-bg.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+  }
   .mobile {
     display: block;
-    transform: scale(1.1);
   }
   .mobile header {
     width: 90vw;
@@ -547,7 +553,7 @@ body {
     filter: brightness(1.1);
   }
   .mobile .tablet .banner-sucess {
-    margin-top: 3.755vw;
+    margin-top: 1.88vw;
   }
   .mobile .tablet .banner-sucess img {
     width: 81.35vw;
@@ -592,7 +598,7 @@ body {
     width: 78.222vw;
     margin: 0 auto;
     text-align: center;
-    margin-top: 3.755vw;
+    margin-top: 1.88vw;
   }
   .mobile .tablet .code p {
     width: 72.59vw;
@@ -625,7 +631,7 @@ body {
     filter: brightness(1.1);
   }
   .mobile .tablet .infos {
-    margin-top: 3.755vw;
+    margin-top: 1.88vw;
   }
   .mobile .tablet .infos p {
     font-size: 2.253vw;
@@ -634,7 +640,6 @@ body {
     width: 72.59vw;
     margin: 0 auto;
     text-align: center;
-    margin-top: 10px;
   }
   .mobile .tablet .cta {
     background-image: url(../img/info-bottom-bg.webp);
@@ -644,7 +649,7 @@ body {
     width: 78.222vw;
     height: 16.9vw;
     margin: 0 auto;
-    margin-top: 2.503vw;
+    margin-top: 1.88vw;
     display: flex;
     align-items: center;
     justify-content: center;
