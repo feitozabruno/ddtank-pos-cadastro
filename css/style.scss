@@ -628,8 +628,8 @@ body {
           justify-content: center;
 
           img {
-            width: 50px;
-            height: 43px;
+            width: 6.26vw;
+            height: 5.38vw;
           }
 
           .message {
@@ -660,7 +660,7 @@ body {
         }
 
         .form {
-          margin-top: 15px;
+          margin-top: 1.88vw;
           margin-left: -6px;
 
           form {
@@ -687,6 +687,10 @@ body {
               padding-left: 20px;
 
               color: #7f7f99;
+
+              &::placeholder {
+                font-size: 2vw;
+              }
             }
 
             button {
@@ -702,7 +706,7 @@ body {
               height: 6.382vw;
 
               color: #004c61;
-              font-size: 1.8rem;
+              font-size: 2.252vw;
               font-weight: normal;
               text-shadow: -2px -2px 2px #00fffc, 2px -2px 1px #00fffc,
                 -2px 2px 1px #00fffc, 2px 2px 1px #00fffc;
