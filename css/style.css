@@ -177,6 +177,7 @@ body {
 }
 .desktop .tablet .store img {
   width: 150px;
+  height: 47px;
 }
 .desktop .tablet .banner-sucess img {
   width: 650px;
@@ -346,4 +347,104 @@ body {
 
 .mobile {
   display: none;
+}
+
+@media (max-width: 799px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+  .mobile header {
+    width: 90vw;
+    height: 28.1vw;
+    margin: 0 auto;
+    background-image: url(../img/panel-mobile.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .mobile header .logo-mobile {
+    text-align: center;
+    position: relative;
+  }
+  .mobile header .logo-mobile a {
+    font-weight: normal;
+    color: #004c61;
+    font-size: 2.51vw;
+    text-shadow: -2px -2px 2px #00fffc, 2px -2px 1px #00fffc, -2px 2px 1px #00fffc, 2px 2px 1px #00fffc;
+    transition: 300ms;
+  }
+  .mobile header .logo-mobile a:hover {
+    transform: scale(1.1);
+    filter: brightness(1.1);
+  }
+  .mobile header .logo-mobile a img {
+    margin-top: 6vw;
+    width: 25vw;
+    height: 16.2vw;
+    transition: 300ms;
+  }
+  .mobile header .logo-mobile a img:hover {
+    transform: scale(1.1);
+    filter: brightness(1.1);
+  }
+  .mobile header .logo-mobile a.link1 {
+    position: absolute;
+    top: 4.75vw;
+    left: 10vw;
+  }
+  .mobile header .logo-mobile a.link2 {
+    position: absolute;
+    bottom: -1.5vw;
+    left: 11vw;
+  }
+  .mobile header .logo-mobile a.link3 {
+    position: absolute;
+    top: 4.75vw;
+    right: 10vw;
+  }
+  .mobile header .logo-mobile a.link4 {
+    position: absolute;
+    bottom: -1.5vw;
+    right: 10vw;
+  }
+  .mobile .store {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    width: 86.36vw;
+    height: 7.51vw;
+    margin: 0 auto;
+    margin-top: 5px;
+    background-image: url(../img/store-bg.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .mobile .store p {
+    padding: 0 10px;
+    font-size: 1.753vw;
+    color: #fff;
+    text-shadow: -2px -2px 2px #15202f, 2px -2px 2px #15202f, -2px 2px 2px #15202f, 2px 2px 2px #15202f;
+  }
+  .mobile .store a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 300ms;
+  }
+  .mobile .store a:hover {
+    transform: scale(1.1);
+    filter: brightness(1.1);
+  }
+  .mobile .store a + a {
+    margin-left: 10px;
+  }
+  .mobile .store img {
+    width: 18.77vw;
+    height: 5.88vw;
+  }
 }/*# sourceMappingURL=style.css.map */
