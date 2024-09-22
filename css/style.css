@@ -495,8 +495,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 15px;
-    margin-top: 15px;
+    margin-left: 1.88vw;
+    margin-top: 1.88vw;
   }
   .mobile .tablet .warning .whatsapp-icon .message p {
     color: #fff;
@@ -506,6 +506,11 @@ body {
   .mobile .tablet .warning .form {
     margin-top: 1.88vw;
     margin-left: -6px;
+  }
+  .mobile .tablet .warning .form form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .mobile .tablet .warning .form form input[type=number]::-webkit-inner-spin-button {
     -webkit-appearance: none;
@@ -528,9 +533,11 @@ body {
     color: #7f7f99;
   }
   .mobile .tablet .warning .form form input::-moz-placeholder {
+    text-align: center;
     font-size: 2vw;
   }
   .mobile .tablet .warning .form form input::placeholder {
+    text-align: center;
     font-size: 2vw;
   }
   .mobile .tablet .warning .form form button {

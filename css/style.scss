@@ -647,8 +647,8 @@ body {
             align-items: center;
             justify-content: center;
 
-            margin-left: 15px;
-            margin-top: 15px;
+            margin-left: 1.88vw;
+            margin-top: 1.88vw;
 
             p {
               color: #fff;
@@ -664,6 +664,10 @@ body {
           margin-left: -6px;
 
           form {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
             input[type='number']::-webkit-inner-spin-button {
               -webkit-appearance: none;
             }
@@ -689,6 +693,7 @@ body {
               color: #7f7f99;
 
               &::placeholder {
+                text-align: center;
                 font-size: 2vw;
               }
             }
