@@ -425,7 +425,6 @@ body {
     background-repeat: no-repeat;
   }
   .mobile .store p {
-    padding: 0 10px;
     font-size: 1.753vw;
     color: #fff;
     text-shadow: -2px -2px 2px #15202f, 2px -2px 2px #15202f, -2px 2px 2px #15202f, 2px 2px 2px #15202f;
@@ -446,5 +445,213 @@ body {
   .mobile .store img {
     width: 18.77vw;
     height: 5.88vw;
+  }
+  .mobile .tablet {
+    background-image: url(../img/tablet-mobile.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 86.36vw;
+    height: 124.03vw;
+    margin: 0 auto;
+    padding-top: 3.504vw;
+    padding-left: 3.254vw;
+  }
+  .mobile .tablet .warning {
+    width: 78.222vw;
+    height: 30vw;
+    text-align: center;
+    background-image: url(../img/warning-mobile-bg.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .mobile .tablet .warning .whatsapp-icon {
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .mobile .tablet .warning .whatsapp-icon img {
+    width: 50px;
+    height: 43px;
+  }
+  .mobile .tablet .warning .whatsapp-icon .message {
+    background-image: url(../img/layer-black.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 78.85vw;
+    height: 16.27vw;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+    margin-top: 15px;
+  }
+  .mobile .tablet .warning .whatsapp-icon .message p {
+    color: #fff;
+    font-size: 2.253vw;
+    text-shadow: -2px -2px 2px #15202f, 2px -2px 2px #15202f, -2px 2px 2px #15202f, 2px 2px 2px #15202f;
+  }
+  .mobile .tablet .warning .form {
+    margin-top: 15px;
+    margin-left: -6px;
+  }
+  .mobile .tablet .warning .form form input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+  .mobile .tablet .warning .form form input[type=number] {
+    -moz-appearance: textfield;
+    -webkit-appearance: textfield;
+            appearance: textfield;
+  }
+  .mobile .tablet .warning .form form input {
+    background: none;
+    border: none;
+    background-image: url(../img/input-number-bg.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 46.3vw;
+    height: 6.382vw;
+    padding-left: 20px;
+    color: #7f7f99;
+  }
+  .mobile .tablet .warning .form form button {
+    background: none;
+    border: none;
+    background-image: url(../img/submit-btn-bg.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30.162vw;
+    height: 6.382vw;
+    color: #004c61;
+    font-size: 1.8rem;
+    font-weight: normal;
+    text-shadow: -2px -2px 2px #00fffc, 2px -2px 1px #00fffc, -2px 2px 1px #00fffc, 2px 2px 1px #00fffc;
+    transition: 300ms;
+  }
+  .mobile .tablet .warning .form form button:hover {
+    transform: scale(1.1);
+    filter: brightness(1.1);
+  }
+  .mobile .tablet .banner-sucess {
+    margin-top: 3.755vw;
+  }
+  .mobile .tablet .banner-sucess img {
+    width: 81.35vw;
+    height: 12.52vw;
+  }
+  .mobile .tablet .vip {
+    width: 78.222vw;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .mobile .tablet .vip p {
+    width: 72.59vw;
+    margin: 0 auto;
+    font-size: 2.503vw;
+    color: #fff;
+    text-shadow: -2px -2px 2px #15202f, 2px -2px 2px #15202f, -2px 2px 2px #15202f, 2px 2px 2px #15202f;
+  }
+  .mobile .tablet .vip p span {
+    color: #4eeb0e;
+  }
+  .mobile .tablet .vip a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/vip-btn-bg.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 78.222vw;
+    height: 7.88vw;
+    margin-left: -6px;
+    color: #004c61;
+    font-size: 3.504vw;
+    text-shadow: -2px -2px 1px #00fffc, 2px -2px 1px #00fffc, -2px 2px 1px #00fffc, 2px 2px 1px #00fffc;
+    transition: 300ms;
+  }
+  .mobile .tablet .vip a:hover {
+    transform: scale(1.1);
+    filter: brightness(1.1);
+  }
+  .mobile .tablet .code {
+    width: 78.222vw;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 3.755vw;
+  }
+  .mobile .tablet .code p {
+    width: 72.59vw;
+    margin: 0 auto;
+    font-size: 2.253vw;
+    color: #fff;
+    text-shadow: -2px -2px 2px #1e3756, 2px -2px 2px #1e3756, -2px 2px 2px #1e3756, 2px 2px 2px #1e3756;
+  }
+  .mobile .tablet .code p span {
+    color: #4eeb0e;
+  }
+  .mobile .tablet .code a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/vip-btn-bg.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 78.222vw;
+    height: 7.884vw;
+    margin-left: -6px;
+    color: #004c61;
+    font-size: 3.504vw;
+    text-shadow: -2px -2px 1px #00fffc, 2px -2px 1px #00fffc, -2px 2px 1px #00fffc, 2px 2px 1px #00fffc;
+    transition: 300ms;
+  }
+  .mobile .tablet .code a:hover {
+    transform: scale(1.1);
+    filter: brightness(1.1);
+  }
+  .mobile .tablet .infos {
+    margin-top: 3.755vw;
+  }
+  .mobile .tablet .infos p {
+    font-size: 2.253vw;
+    color: #fff;
+    text-shadow: -2px -2px 2px #1e3756, 2px -2px 2px #1e3756, -2px 2px 2px #1e3756, 2px 2px 2px #1e3756;
+    width: 72.59vw;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .mobile .tablet .cta {
+    background-image: url(../img/info-bottom-bg.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 78.222vw;
+    height: 16.9vw;
+    margin: 0 auto;
+    margin-top: 2.503vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .mobile .tablet .cta h3 {
+    font-weight: normal;
+    font-size: 3vw;
+    color: #fff;
+    text-shadow: -2px -2px 2px #1e3756, 2px -2px 2px #1e3756, -2px 2px 2px #1e3756, 2px 2px 2px #1e3756;
+    text-align: center;
+    line-height: 1.2;
+  }
+  .mobile .tablet .cta h3 span {
+    color: #4eeb0e;
+    font-size: 3vw;
   }
 }/*# sourceMappingURL=style.css.map */
